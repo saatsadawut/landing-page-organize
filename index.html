@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>OffSizze</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="fonawesome/css/all.css">
+  <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body data-spy="scroll" data-target="#navbar" data-offset="72" class="position-relative">
+  <header class="fixed-top page-header">
+    <div class="container-fluid container-fluid-max">
+      <nav id="navbar" class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand font-48 text-nav font-bold" href="#home">OffSizze</a> 
+
+        <!-- x hamburger bar-->
+        <div class="x-bar navbar-toggler" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"
+        style="border-color: #ffffff00;">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
+
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link hover-menu-header font-16 p-2 m-12 text-nav" href="#home"> <i class="fa fa-home"></i> Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link hover-menu-header font-16 p-2 m-12 text-nav" href="#aboutus"> <i class="fa fa-users"></i> About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link hover-menu-header font-16 p-2 m-12 text-nav" href="#service"> <i class="fa fa-hand-holding"></i> Service</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link hover-menu-header font-16 p-2 m-12 text-nav" href="#team"> <i class="fa fa-users"></i> Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link hover-menu-header font-16 p-2 m-12 text-nav" href="#news"> <i class="fa fa-newspaper"></i> News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link hover-menu-header font-16 p-2 m-12 text-nav" href="#contact"> <i class="fa fa-envelope"></i> Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <!-- Banner -->
+    <section id="home">
+    <div id="carouselExampleIndicators" class="carousel slide cover hero" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="images/business-concept-with-team-close-up 1.png" alt="First slide">
+          <div class="carousel-caption d-none d-md-block">
+            <h1 class="text-white text-left font-bold">We Are Team Work</h1>
+            <p class="text-white text-left">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+              Ipsum has been the industry's standard.</p>
+              <div class="text-left">
+                <a href="javascript:void(0)" class="btn btn-primary default-btn">Learn More</a>
+              </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="images/business-concept-with-team-close-up 1.png" alt="Second slide">
+          <div class="carousel-caption d-none d-md-block">
+            <h1 class="text-white text-left font-bold">We Are Team Work</h1>
+            <p class="text-white text-left">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+              Ipsum has been the industry's standard.</p>
+              <div class="text-left">
+                <a href="javascript:void(0)" class="btn btn-primary default-btn">Learn More</a>
+              </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="images/business-concept-with-team-close-up 1.png" alt="Third slide">
+          <div class="carousel-caption d-none d-md-block">
+            <h1 class="text-white text-left font-bold">We Are Team Work</h1>
+            <p class="text-white text-left">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+              Ipsum has been the industry's standard.</p>
+              <div class="text-left">
+                <a href="javascript:void(0)" class="btn btn-primary default-btn">Learn More</a>
+              </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </section>
+
+    <!-- <section id="home" class="d-flex align-items-center position-relative vh-100 cover hero"
+      style="background-image:url('images/business-concept-with-team-close-up 1.png');">
+      <div class="container-fluid container-fluid-max">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="m-5">
+              <h1 class="text-white">We Are Team Work</h1>
+              <p class="text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                Ipsum has been the industry's standard.</p>
+              <a href="javascript:void(0)" class="btn btn-primary default-btn">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <section id="aboutus" class="process mt-5">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h2 class="font-48 text-bluelight font-bold">ABOUT US</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-8">
+
+            <div class="font-40">
+              <span>We Are </span>
+              <span class="text-bluelight ">Team</span>
+            </div>
+            <hr>
+            <p class="font-20">consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+              aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in</p>
+            <div class="row">
+              <div class="col-md-4 col-sm-12 text-center font-24">
+                <div class="border-right tab-start text-gray relative-position">
+                  Our Mission
+                </div>  
+              </div>
+              <div class="col-md-4 col-sm-12 text-center font-24">
+                <div class="border-right tab-start text-gray relative-position">
+                  Our Guarantee
+                </div> 
+              </div>
+              <div class="col-md-4 col-sm-12 text-center font-24">
+                <div class="tab-start text-gray relative-position">
+                  Our Advantage
+                </div> 
+              </div>
+            </div>
+            <p class="mt-3 font-20">
+              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+              minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+              irure dolor in
+            </p>
+            <a href="javascript:void(0)" id="portfolio" class="btn btn-primary text-white default-btn">
+              Our Portfolio <i class="fa fa-envelope" id="iconTest" style="display: none;"></i>
+            </a>
+          </div>
+          <div class="col-md-4 col-sm-12 align-self-center">
+            <img class="img-about-us" src="images/business-people-partnership-support-team-urban-scene-concept 1.png" alt="">
+            <div class="frame-about-us"> 
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="service" class="process mt-5"
+      style="background-image:url('images/asian-businessmen-businesswomen-meeting-brainstorming-ideas-about-creative-web-design-planning-application-developing-template-layout-mobile-phone-project-working-together-small-office 1.png');">
+      <div class="container pt-7 pb-7">
+        <div class="row mb-5">
+          <div class="col-md-12 text-center">
+            <h2 class="font-48 text-bluelight font-bold">OUR SERVICES</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="card ">
+              <div class="card-body">
+                <div class="w-100 text-center">
+                  <img src="images/Group.png" class="mx-auto" alt="" width="40px">
+                </div>
+                <h5 class="card-title text-center mt-3 font-bold">Custom Design</h5>
+                <p class="card-text">consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="card">
+              <div class="card-body">
+                <div class="w-100 text-center">
+                  <img src="images/Vector.png" class="mx-auto" alt="" width="40px">
+                </div>
+                <h5 class="card-title text-center mt-3 font-bold">Featured Services</h5>
+                <p class="card-text">consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="card">
+              <div class="card-body">
+                <div class="w-100 text-center">
+                  <img src="images/uiw_document.png" class="mx-auto" alt="" width="40px">
+                </div>
+                <h5 class="card-title text-center mt-3 font-bold">Well Documented</h5>
+                <p class="card-text">consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="card">
+              <div class="card-body">
+                <div class="w-100 text-center">
+                  <img src="images/flat-color-icons_support.png" class="mx-auto" alt="" width="40px">
+                </div>
+                <h5 class="card-title text-center  mt-3 font-bold">Technical Support</h5>
+                <p class="card-text">consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+         
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="card">
+              <div class="card-body">
+                <div class="w-100 text-center">
+                  <img src="images/mdi_responsive.png" class="mx-auto" alt="" width="40px">
+                </div>
+                <h5 class="card-title text-center  mt-3 font-bold">Responsive Design</h5>
+                <p class="card-text">consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="card">
+              <div class="card-body">
+                <div class="w-100 text-center">
+                  <img src="images/subway_glass.png" class="mx-auto" alt="" width="40px">
+                </div>
+                <h5 class="card-title text-center  mt-3 font-bold">Creative Solutions</h5>
+                <p class="card-text">consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+              </div>
+            </div>
+          </div>
+        </div> 
+      </div>
+    </section>
+
+
+    <section id="team" class="process ">
+    <div class="container pt-5 pb-7">
+      <div class="row mb-5">
+        <div class="col-md-12 text-center">
+          <h2 class="font-48 text-bluelight font-bold">OUR TEAM</h2>
+        </div>
+      </div>
+      <div class="row" >
+        <div class="col-md-4 col-sm-12" align="center">
+          <img class="img-team " src="images/asia-business-woman-feeling-happy-smiling-looking-camera-while-relax-home-office.jpg" alt="">
+          <div class="font-20 text-bluelight mt-1">
+            Jen William
+          </div>
+          <div class="font-18 text-blue mb-1">
+            Developer
+          </div>
+          <p class="text-left text-gray">
+            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+          </p>
+        </div>
+        <div class="col-md-4 col-sm-12" align="center">
+          <img class="img-team " src="images/asia-business-woman-feeling-happy-smiling-looking-camera-while-relax-home-office.jpg" alt="">
+          <div class="font-20 text-bluelight mt-1">
+            Jen William
+          </div>
+          <div class="font-18 text-blue mb-1">
+            Developer
+          </div>
+          <p class="text-left text-gray">
+            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+          </p>
+        </div>
+        <div class="col-md-4 col-sm-12" align="center">
+          <img class="img-team " src="images/asia-business-woman-feeling-happy-smiling-looking-camera-while-relax-home-office.jpg" alt="">
+          <div class="font-20 text-bluelight mt-1">
+            Jen William
+          </div>
+          <div class="font-18 text-blue mb-1">
+            Developer
+          </div>
+          <p class="text-left text-gray">
+            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <section id="news" class="process mt-5"
+  style="background-image:url('images/silhouette-confident-businesspeople 1.png');">
+  <div class="container pt-5 pb-7">
+    <div class="row mb-5">
+      <div class="col-md-12 text-center">
+        <h2 class="font-48 text-bluelight font-bold">NEWS</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4 col-sm-12">
+        <div class="card ">
+          <div class="card-body">
+            <div class="w-100 text-center">
+              <img src="images/worker-reading-news-with-tablet.jpg" class="mx-auto img-news" alt="">
+            </div>
+            <p class="card-title mt-3 text-bluelight">Fri 19 June 2023 | Category</p>
+            <p class="card-title text-center mt-3 font-20 font-weight-bold">Why is choose theme forest ?</p>
+            <p class="card-text text-gray">Lorem ipsum madolor sit amet, consectetur adipisicing elit, sed do eiusmod....</p>
+            <a href="javascript:void(0)" class="btn btn-primary text-white default-btn">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-12">
+        <div class="card">
+          <div class="card-body">
+            <div class="w-100 text-center">
+              <img src="images/worker-reading-news-with-tablet.jpg" class="mx-auto img-news" alt="">
+            </div>
+            <p class="card-title mt-3 text-bluelight">Fri 19 June 2023 | Category</p>
+            <p class="card-title text-center mt-3 font-20 font-weight-bold">Why is choose theme forest ?</p>
+            <p class="card-text text-gray">Lorem ipsum madolor sit amet, consectetur adipisicing elit, sed do eiusmod....</p>
+            <a href="javascript:void(0)" class="btn btn-primary text-white default-btn">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-12">
+        <div class="card">
+          <div class="card-body">
+            <div class="w-100 text-center">
+              <img src="images/worker-reading-news-with-tablet.jpg" class="mx-auto img-news" alt="">
+            </div>
+            <p class="card-title mt-3 text-bluelight">Fri 19 June 2023 | Category</p>
+            <p class="card-title text-center mt-3 font-20 font-weight-bold">Why is choose theme forest ?</p>
+            <p class="card-text text-gray">Lorem ipsum madolor sit amet, consectetur adipisicing elit, sed do eiusmod....</p>
+            <a href="javascript:void(0)" class="btn btn-primary text-white default-btn">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+    <section id="contact" class="process ">
+    <div class="container pt-5 pb-7">
+      <div class="row mb-3">
+        <div class="col-md-12 text-center">
+          <h2 class="font-48 text-bluelight font-bold">CONTACT</h2>
+        </div>
+      </div>
+
+      <div class="row frame-contact mr-1 ml-1 ">
+        <div class="col-md-6 col-sm-12">
+          <div class="row">
+            <div class="col-md-12 font-20  text-bluelight mb-3">
+              Contact Info
+            </div>
+            <div class="col-md-12 mb-5">
+              <i class='fas fa-map-marker-alt mr-4'></i>
+              <span class="text-gray">1502 N Elm St, Fairmont, MN, 56031 United States</span>
+            </div>
+            <div class="col-md-12 mb-5">
+              <i class='fa fa-phone mr-4'></i>
+              <span class="text-gray">+00 123-456-789</span>
+            </div>
+            <div class="col-md-12 mb-5">
+              <i class='fa fa-envelope mr-4'></i>
+              <span class="text-gray">info@yourcompany.com</span>
+            </div>
+            <!-- add class lt-md use margin bottom while mobile size -->
+            <div class="col-md-12 lt-md">
+              <i class='fa fa-globe mr-4'></i>
+              <span class="text-gray">www.yourdomain.com</span>
+            </div>
+            
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12" >
+          <div class="row">
+            <div class="col-md-6 mb-4">
+              <input type="text" class="form-control b-radius-10 px-3" id="" placeholder="Enter Your Name">
+            </div>
+            <div class="col-md-6 mb-4">
+              <input type="email" class="form-control b-radius-10 px-3" id="" placeholder="Enter Your E-mail">
+            </div>
+
+            <div class="col-md-12 mb-4">
+              <input type="text" class="form-control b-radius-10 px-3" id="" placeholder="Enter Your Subject">
+            </div>
+            <div class="col-md-12 mb-4">
+              <textarea class="form-control b-radius-10 px-3" id="" placeholder="Message" rows="5"></textarea>
+            </div>
+            <div class="col-md-12">
+              <a href="javascript:void(0)" class="btn btn-primary text-white default-btn">Send Message</a>
+            </div>
+          </div>
+
+        </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-12 mt-5">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2990.274257380938!2d-70.56068388481569!3d41.45496659976631!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e52963ac45bbcb%3A0xf05e8d125e82af10!2sDos%20Mas!5e0!3m2!1sen!2sus!4v1671220374408!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+
+    </div>
+  </section>
+
+  </main>
+  <footer class="bg-blue py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12  text-center mb-3">
+          OffSizze one page parallax
+        </div>
+        <div class="col-md-12  text-white text-center mb-3">
+          © copyright 2023 offsizze and design
+        </div>
+        <div class="col-md-12 text-center">
+          <ul class="list-inline text-center mb-0">
+            <li class="list-inline-item mx-2" iconId="1"><i class="fab fa-facebook-square"></i></li>
+            <li class="list-inline-item mx-2" iconId="2"><i class="fab fa-skype"></i></li>
+            <li class="list-inline-item mx-2" iconId="3"><i class="fab fa-google"></i></li>
+            <li class="list-inline-item mx-2" iconId="4"><i class="fab fa-instagram"></i></li>
+            <li class="list-inline-item mx-2" iconId="5"><i class="fab fa-linkedin"></i></li>
+            <li class="list-inline-item mx-2" iconId="6"><i class="fab fa-tumblr-square"></i></li> 
+            <li class="list-inline-item mx-2" iconId="7"><i class="fab fa-line"></i></li>
+            <li class="list-inline-item mx-2" iconId="8"><i class="fab fa-youtube"></i></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/landing_page.js"></script>
+  <script src="js/lightbox-plus-jquery.min.js"></script>
+  <script src="fonawesome/js/all.js" charset="utf-8"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+</body>
+
+</html>
